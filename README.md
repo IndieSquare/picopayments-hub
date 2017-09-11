@@ -1,24 +1,7 @@
 # PicoPayments Hub 
 
-|BuildLink|_ |CoverageLink|_ |LicenseLink|_ |IssuesLink|_
-
-
-.. |BuildLink| image:: https://travis-ci.org/F483/picopayments-hub.svg
-.. _BuildLink: https://travis-ci.org/F483/picopayments-hub
-
-.. |CoverageLink| image:: https://coveralls.io/repos/F483/picopayments-hub/badge.svg
-.. _CoverageLink: https://coveralls.io/r/F483/picopayments-hub
-
-.. |LicenseLink| image:: https://img.shields.io/badge/license-MIT-blue.svg
-.. _LicenseLink: https://raw.githubusercontent.com/F483/picopayments-hub/master/LICENSE
-
-.. |IssuesLink| image:: https://img.shields.io/github/issues/F483/picopayments-hub.svg
-.. _IssuesLink: https://github.com/F483/picopayments-hub/issues
-
-
-Decentral micropayment hub for counterparty assets.
+Decentralised micropayment hub for counterparty assets.
  
-
 
 ## Node setup
  
