@@ -1,6 +1,4 @@
-################
-PicoPayments Hub
-################
+### PicoPayments Hub 
 
 |BuildLink|_ |CoverageLink|_ |LicenseLink|_ |IssuesLink|_
 
