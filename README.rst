@@ -39,9 +39,11 @@ $ cd picopayments-hub
 $ sudo pip3 install -r requirements.txt
 $ sudo python3 setup.py install
 ```
+
 =========
 Install IndieSquare fork of picopayments-cli
 =========
+
 ```
 $ git clone https://github.com/IndieSquare/picopayments-cli-python.git
 $ cd picopayments-cli-python
