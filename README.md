@@ -39,7 +39,9 @@ picopayments-hub --testnet --cp_username=USERNAME --cp_password=PASSWORD --host=
 
 access from external network
 
+```
 curl -X POST https://your.hub.url.or.ip:15000/api/ -H 'Content-Type: application/json; charset=UTF-8' -H 'Accept: application/json, text/javascript' -k --data-binary '{ "jsonrpc": "2.0", "id": 0, "method": "mph_status" }'
+```
 
 
 ## Common errors
@@ -47,9 +49,11 @@ curl -X POST https://your.hub.url.or.ip:15000/api/ -H 'Content-Type: application
 make sure port 15000 is open on your server
 
 there may be possible conflicts, a common conflict may be the version of pycoin, it can be resolved via calling
-```pip install pycoin==0.76```
+```
+pip install pycoin==0.76
+```
 
 ## API Calls
 
-See the `API documentation <docs/api.md>`_ if you wish to create apps that interact with picopayment hubs.
+See the [API documentation](docs/api.md) if you wish to create apps that interact with picopayment hubs.
 
