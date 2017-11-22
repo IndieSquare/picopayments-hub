@@ -6,7 +6,8 @@
 import time
 import threading
 from werkzeug.serving import run_simple
-from werkzeug.wrappers import Request, Response
+from werkzeug.wrappers import Request, Response 
+
 from jsonrpc import JSONRPCResponseManager, dispatcher
 from picopayments_hub import lib
 from picopayments_hub import cli
@@ -18,7 +19,9 @@ from picopayments_hub import __version__
 @Request.application
 def application(request):
     response = JSONRPCResponseManager.handle(request.data, dispatcher)
-    return Response(response.json, mimetype='application/json')
+    headers = {'Access-Control-Allow-Origin': '*','Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,PATCH','Access-Control-Allow-Headers':'Content-Type, Authorization'}
+
+    return Response(response.json, mimetype='application/json', headers=headers)
 
 
 def _ssl_context(parsed):
